@@ -45,3 +45,10 @@ hr{
     border: 1px solid black;
     background-color: black;
 }
+.buttons{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
