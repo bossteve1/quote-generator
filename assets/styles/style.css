@@ -27,3 +27,8 @@ body{
     font-size: 30px;
     color: rgb(179, 0, 0);;
 }
+.quote{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
