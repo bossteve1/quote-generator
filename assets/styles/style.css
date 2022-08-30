@@ -3,3 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    min-height: 100vh;
+    transition: 0.5s;
+    transition-timing-function: ease-in;
+    background-image: linear-gradient(to right bottom, rgb(255, 128, 128), #ffedbca8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
