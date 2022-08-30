@@ -39,3 +39,9 @@ body{
     font-style: italic;
     font-family: cursive;
 }
+hr{
+    margin: 10px 0;
+    width: 100px;
+    border: 1px solid black;
+    background-color: black;
+}
