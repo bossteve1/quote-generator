@@ -52,3 +52,13 @@ hr{
     align-items: center;
     margin-top: 12px;
 }
+.next{
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 12px;
+    margin-top: 8px;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(to right bottom, rgb(230, 0, 0), #ffedbca8);
+}
