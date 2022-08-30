@@ -62,3 +62,6 @@ hr{
     color: white;
     background-image: linear-gradient(to right bottom, rgb(230, 0, 0), #ffedbca8);
 }
+.container:hover{
+    box-shadow: 0 10px 10px rgb(230, 0, 0);
+}
