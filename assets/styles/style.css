@@ -23,10 +23,10 @@ body{
     background-color:#005E7C;
     margin: 10px;
 }
-.fa-quote-left, .fa-quote-right{
+/* .fa-quote-left, .fa-quote-right{
     font-size: 30px;
     color: rgb(179, 0, 0);;
-}
+} */
 .quote{
     text-align: center;
     font-size: 32px;
@@ -46,7 +46,7 @@ hr{
     background-color: black;
 }
 .buttons{
-    width: 100px;
+    /* width: 100px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
