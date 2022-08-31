@@ -3,3 +3,7 @@ let author=document.getElementById("author");
 let next=document.getElementById("next");
 
 const url="https://type.fit/api/quotes";
+
+let getQuote = () => {
+    
+}
