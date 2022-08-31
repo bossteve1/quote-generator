@@ -7,7 +7,7 @@ body{
     min-height: 100vh;
     transition: 0.5s;
     transition-timing-function: ease-in;
-    background-image: linear-gradient(to right bottom, rgb(255, 128, 128), #ffedbca8);
+    background-image: linear-gradient(to right bottom,#001242, #005E7C);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,7 +20,7 @@ body{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
     border-radius: 20px;
     width: 700px;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color:#005E7C;
     margin: 10px;
 }
 .fa-quote-left, .fa-quote-right{
@@ -60,8 +60,8 @@ hr{
     margin-top: 8px;
     font-weight: bold;
     color: white;
-    background-image: linear-gradient(to right bottom, rgb(230, 0, 0), #ffedbca8);
+    background-image: linear-gradient(to right bottom, #001242,#0094c6);
 }
-.container:hover{
-    box-shadow: 0 10px 10px rgb(230, 0, 0);
+.buttons:hover{
+    box-shadow: 0 10px 10px rgb(3, 15, 83);
 }
