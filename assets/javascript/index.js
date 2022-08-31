@@ -7,7 +7,11 @@ const url="https://type.fit/api/quotes";
 let getQuote = () => {
     fetch(url)
     .then((data) => data.json())
-    .then((item) =>{
-        
-    })
-}
+    .then((item) => {
+        quote.innerText = item.content;
+        author.innerText = item.author;
+    });
+};
+
+window.addEventListener("load", getQuote);
+next.addEventListener("click", getQuote);
