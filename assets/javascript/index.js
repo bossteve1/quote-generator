@@ -6,4 +6,8 @@ const url="https://type.fit/api/quotes";
 
 let getQuote = () => {
     fetch(url)
+    .then((data) => data.json())
+    .then((item) =>{
+        
+    })
 }
