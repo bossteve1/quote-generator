@@ -52,7 +52,7 @@ hr{
     align-items: center;
     margin-top: 12px;
 }
-.next{
+#next{
     font-size: 20px;
     border-radius: 5px;
     cursor: pointer;
