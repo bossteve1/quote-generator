@@ -5,5 +5,5 @@ let next=document.getElementById("next");
 const url="https://type.fit/api/quotes";
 
 let getQuote = () => {
-    
+    fetch(url)
 }
