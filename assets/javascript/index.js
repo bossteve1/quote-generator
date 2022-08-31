@@ -2,7 +2,7 @@ let quote = document.getElementById("quote");
 let author=document.getElementById("author");
 let next=document.getElementById("next");
 
-const url="https://type.fit/api/quotes";
+const url="https://api.quotable.io/random";
 
 let getQuote = () => {
     fetch(url)
