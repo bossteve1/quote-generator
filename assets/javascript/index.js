@@ -11,7 +11,7 @@ const options = {
 };
 
 
-let getQuote = () => {
+const getQuote = () => {
     fetch('https://quotes15.p.rapidapi.com/quotes/random/', options)
 	.then(response => response.json())
 	.then(response => {
@@ -21,6 +21,11 @@ let getQuote = () => {
 	.catch(err => console.error(err));
     
 };
+const copyQuote =() =>{
+    alert("You copied quote!");
+}
+
 
 window.addEventListener("load", getQuote);
 next.addEventListener("click", getQuote);
+quote.addEventListener("copy", copyQuote);
