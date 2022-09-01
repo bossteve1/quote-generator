@@ -84,3 +84,14 @@ hr{
     font-weight: 600;
     padding: 5%;
 }
+.btn{
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 12px;
+    background-color: white;
+    color: #001242;
+    margin-left: 190px;
+    font-size: larger;
+    font-weight: 800;
+}
