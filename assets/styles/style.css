@@ -27,12 +27,12 @@ body{
     font-size: 30px;
     color: rgb(179, 0, 0);;
 } */
-.quote{
+#quote{
     text-align: center;
     font-size: 32px;
     font-weight: bold;
 }
-.author{
+#author{
     margin: 10px;
     text-align: right;
     font-size: 20px;
