@@ -33,7 +33,8 @@ The software can run on any search engine.
 
 
 
-### License
+### [License](https://github.com/bossteve1/quote-generator/blob/main/LICENSE)
+Click to view license
 
 # Authors Info
 Stephen Bosire Nyabuto
